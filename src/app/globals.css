@@ -19,3 +19,13 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components{
+  .div{
+    @apply bg-green-950 text-center flex flex-col justify-center items-center text-stone-50
+  }
+  .input{
+    @apply text-center
+    flex justify-center items-center bg-amber-700
+  }
+}
